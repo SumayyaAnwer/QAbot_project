@@ -36,12 +36,7 @@ def extract_text_from_pdf(pdf_file):
 # Set the page layout to wide for better UI space
 st.set_page_config(page_title="PDF Query Bot", layout="wide")
 
-# Sidebar
-#st.sidebar.title("PDF Query Assistant")
-#st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/PDF_file_icon.svg/1024px-PDF_file_icon.svg.png", use_container_width=True)  # Adding an image in the sidebar
-#st.sidebar.markdown("### Navigation")
-#st.sidebar.markdown("Use this app to upload a PDF and ask questions about its content.")
-#st.sidebar.markdown("")
+
 
 # Main UI layout
 st.title("📄 PDF Query Bot")
@@ -78,11 +73,6 @@ if uploaded_file:
 
 st.markdown("</div>", unsafe_allow_html=True)
 
-# Footer
-#st.sidebar.markdown("### About")
-#st.sidebar.info("Developed with ❤️ using Streamlit and Groq API.")
-#st.sidebar.markdown("---")
-#st.sidebar.write("For more information, visit [Groq](https://www.groq.com) and [Streamlit](https://streamlit.io).")
 
 # Customize the theme and color contrast
 st.markdown("""
